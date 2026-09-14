@@ -37,5 +37,6 @@ jobs:
 
       - name: Deploy Versioned Docs with Mike
         run: |
+          mike delete --push 3.13 || true
           mike deploy --push --update-aliases 3.14 latest
           mike set-default --push latest
