@@ -1,4 +1,4 @@
-name: Deploy ProjectPy Documentation to GitHub Pages
+name: Checkout repository
 
 on:
   push:
@@ -35,7 +35,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+      - name: Fetch gh-pages branch
+        run: |
+          git fetch origin gh-pages:gh-pages || true
+
       - name: Deploy Versioned Docs with Mike
         run: |
-          mike deploy --push --update-aliases 3.13 latest
+          mike deploy --push --force --update-aliases 3.13 latest
           mike set-default --push latest
