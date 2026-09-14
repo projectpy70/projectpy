@@ -41,5 +41,5 @@ jobs:
 
       - name: Deploy Versioned Docs with Mike
         run: |
-          mike deploy --push --force --update-aliases 3.13 latest
+          mike deploy --push -f --update-aliases 3.13 latest
           mike set-default --push latest
