@@ -39,7 +39,7 @@ mkdocs build --strict
 
 ## Full Contribution Guide
 
-For the complete guide including style guidelines, a PR checklist, how to write a new stdlib module guide, and more — see the **[in-site How to Contribute page](https://projectpy.dev/community/contributing/)**.
+For the complete guide including style guidelines, a PR checklist, how to write a new stdlib module guide, and more — see the **[in-site How to Contribute page](https://projectpy70.github.io/projectpy/community/contributing/)**.
 
 ---
 
@@ -49,7 +49,7 @@ For the complete guide including style guidelines, a PR checklist, how to write 
 - Improve explanations with clearer analogies
 - Add runnable code examples (Python 3.12+)
 - Add Mermaid diagrams for visual learners
-- Write a new guide for a [missing stdlib module](https://projectpy.dev/coverage/)
+- Write a new guide for a [missing stdlib module](https://projectpy70.github.io/projectpy/coverage/)
 - Report issues and suggest improvements on GitHub
 
 ---
