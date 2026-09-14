@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Required by mike to fetch repository history
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,5 +37,5 @@ jobs:
 
       - name: Deploy Versioned Docs with Mike
         run: |
-          mike deploy --push --update-aliases 3.13 latest
+          mike deploy --push --update-aliases 3.14 latest
           mike set-default --push latest
