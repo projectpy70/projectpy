@@ -17,12 +17,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Required by mike to fetch gh-pages branch history
+          fetch-depth: 0 # Required by mike to fetch repository history
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.14"
           cache: "pip"
 
       - name: Install dependencies
@@ -35,11 +35,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Fetch gh-pages branch
-        run: |
-          git fetch origin gh-pages:gh-pages || true
-
       - name: Deploy Versioned Docs with Mike
         run: |
-          mike deploy --push -f --update-aliases 3.13 latest
+          mike deploy --push --update-aliases 3.13 latest
           mike set-default --push latest
