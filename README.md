@@ -14,9 +14,8 @@
 [![GitHub Repo](https://img.shields.io/badge/GitHub-projectpy70%2Fprojectpy-181717?logo=github&logoColor=white)](https://github.com/projectpy70/projectpy)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Docs](https://img.shields.io/badge/Docs-projectpy.dev-0ea5e9)](https://projectpy.dev)
-
-[**Read Documentation**](https://projectpy.dev) &nbsp;·&nbsp; [**Getting Started**](#quick-start) &nbsp;·&nbsp; [**Curriculum Overview**](#curriculum--architecture) &nbsp;·&nbsp; [**Coverage Status**](https://projectpy.dev/coverage/) &nbsp;·&nbsp; [**Contribute**](CONTRIBUTING.md)
+[![Docs](https://img.shields.io/badge/Docs-projectpy70.github.io%2Fprojectpy-0ea5e9)](https://projectpy70.github.io/projectpy/)
+[**Read Documentation**](https://projectpy70.github.io/projectpy/) &nbsp;·&nbsp; [**Getting Started**](#quick-start) &nbsp;·&nbsp; [**Curriculum Overview**](#curriculum--architecture) &nbsp;·&nbsp; [**Coverage Status**](https://projectpy70.github.io/projectpy/coverage/) &nbsp;·&nbsp; [**Contribute**](CONTRIBUTING.md)
 
 </div>
 
@@ -187,7 +186,7 @@ Please ensure all contributors adhere to our **[Code of Conduct](CODE_OF_CONDUCT
 **Souhardya Das**  
 - GitHub: [@Sdas2003810](https://github.com/Sdas2003810)  
 - Repository: [projectpy70/projectpy](https://github.com/projectpy70/projectpy)  
-- Website: [projectpy.dev](https://projectpy.dev)
+- Website: [projectpy70.github.io/projectpy](https://projectpy70.github.io/projectpy/)
 
 ---
 
